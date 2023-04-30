@@ -1,6 +1,8 @@
 # Filter_Life_Measurement
 Estimating the remaining life of three types of aircraft system filters. 
 
+
+## Introduction
 In collaboration with Bombardier Aerospace, our team, composed of five engineering student, dedicated our collective expertise to developing a robust, reliable solution to a long-standing challenge: the premature and inefficient replacement of partially used filters.
 
 Our solution hinges on the measurement of pressure drop across three types of aircraft system filters under specific operational conditions, such as temperature, pressure, and mass flow rate. To validate the efficacy of our design, we conducted a Computational Fluid Dynamics (CFD) analysis, assessing not only the technical performance but also the safety implications, economic viability, and a strategic construction plan. The culmination of these efforts was encapsulated in a comprehensive report delivered to Bombardier Aerospace.
