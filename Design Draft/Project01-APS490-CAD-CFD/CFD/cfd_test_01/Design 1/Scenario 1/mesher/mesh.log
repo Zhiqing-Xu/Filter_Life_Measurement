@@ -1,0 +1,23 @@
+Model successfully read and processed
+Meshing constraints read successfully.
+(0) Surface Meshing started
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Face Meshing started
+(1) Face Meshing 1/10
+tag = 1, type = Plane -> CFdesign ID = 1
+(1) Face Meshing 2/10
+tag = 2, type = Unknown -> CFdesign ID = 2
+(1) Face Meshing 3/10
+tag = 3, type = Plane -> CFdesign ID = 3
+(1) Face Meshing 4/10
+tag = 4, type = Unknown -> CFdesign ID = 4
+zero length edge
+Code: 1103 String: Unable to mesh face 4, probable model problem at (27.305, 2.3329521523757077e-16, 20.32)
+(1) Face Meshing finished: CPU time: 0.046875 s, clock time: 0.05 s
+(0) Surface Meshing finished: CPU time: 0.359375 s, clock time: 0.357 s
+Mesh generation failure.
+Time to free model entity memory = 0.00 sec
+Time to delete database = 0.00 sec

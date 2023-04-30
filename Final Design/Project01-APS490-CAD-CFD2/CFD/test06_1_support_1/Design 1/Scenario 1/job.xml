@@ -1,0 +1,19 @@
+<CFD_JobInformation version="17.0">
+ <analysisPath>C:\Users\User\Desktop\Project01-APS490-CAD-CFD\CFD\test06_1_support_1\Design 1\Scenario 1</analysisPath>
+ <meshFlag>Y</meshFlag>
+ <jobType>LOCAL</jobType>
+ <isClusterJob>false</isClusterJob>
+ <cores>0</cores>
+ <jobArgs></jobArgs>
+ <profile>MyComputer</profile>
+ <owner>User</owner>
+ <UIHost>User-PC</UIHost>
+ <solveHost>USER-PC</solveHost>
+ <portalId></portalId>
+ <portalPwd></portalPwd>
+ <recipients></recipients>
+ <notifyStart>false</notifyStart>
+ <notifyMesh>false</notifyMesh>
+ <notifyDone>false</notifyDone>
+ <useLocalSmpd>false</useLocalSmpd>
+</CFD_JobInformation>

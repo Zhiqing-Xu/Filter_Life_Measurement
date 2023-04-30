@@ -1,0 +1,181 @@
+[Fri Mar 17 03:36:27 2017] Reading CPU information from SystemInfo.xml
+[Fri Mar 17 03:36:27 2017] Processors: 1, Cores per processor: 2
+[Fri Mar 17 03:36:27 2017] Requested cores 0
+[Fri Mar 17 03:36:27 2017] Using 3 ranks
+[Fri Mar 17 03:36:27 2017] analysis path:C:\Users\User\Desktop\Project01-APS490-CAD-CFD\CFD\test06_1_support_2\Design 1\Scenario 1
+[Fri Mar 17 03:36:27 2017] Listen on port 49909
+[Fri Mar 17 03:36:27 2017] Email file: C:\ProgramData\Autodesk\CFD 2017\Analyze\job5/email.xml
+[Fri Mar 17 03:36:27 2017] startJob
+[Fri Mar 17 03:36:27 2017] Creating C:\ProgramData\Autodesk\CFD 2017\Analyze\job5/job.bat
+[Fri Mar 17 03:36:27 2017] Command: cmd.exe /c job.bat
+[Fri Mar 17 03:36:27 2017]  output:C:\ProgramData\Autodesk\CFD 2017\Analyze\job5>CD C:\Program Files\Autodesk\CFD 2017
+[Fri Mar 17 03:36:27 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\CFDMesher.exe" "C:\Users\User\Desktop\Project01-APS490-CAD-CFD\CFD\test06_1_support_2\Design 1\Scenario 1\mesher\Scenario 1" -jo
+[Fri Mar 17 03:36:27 2017]  output:bId=5 -cloudJobId=  -gui  -useJobFile  -port=49909
+[Fri Mar 17 03:36:28 2017] Processing mesher exited
+[Fri Mar 17 03:36:28 2017]  output:C:\Program Files\Autodesk\CFD 2017>set E=0
+[Fri Mar 17 03:36:28 2017]  output:C:\Program Files\Autodesk\CFD 2017>IF 0 NEQ 0 goto EOF
+[Fri Mar 17 03:36:28 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\mpiexec.exe" -n 3 "C:\Program Files\Autodesk\CFD 2017\CFDSolver.exe" "C:\Users\User\Desktop\Project01-APS490-CAD-CFD\CFD\test06_
+[Fri Mar 17 03:36:28 2017]  output:1_support_2\Design 1\Scenario 1\solver\Scenario 1" -jobId=5 -cloudJobId=  -gui  -useJobFile  -port=49909 -mpi
+[Fri Mar 17 03:36:28 2017]  output:Server = 127.0.0.1
+[Fri Mar 17 03:36:28 2017]  output:Program Dir = C:/Program Files/Autodesk/CFD 2017
+[Fri Mar 17 03:36:28 2017]  output:Analysis Path = C:\Users\User\Desktop\Project01-APS490-CAD-CFD\CFD\test06_1_support_2\Design 1\Scenario 1/solver
+[Fri Mar 17 03:36:28 2017]  output:Analysis Name = Scenario 1
+[Fri Mar 17 03:36:28 2017]  output:Master Node is:User-PC
+[Fri Mar 17 03:36:28 2017]  output:Number of ranks: 3
+[Fri Mar 17 03:36:28 2017]  output:Number of Nodes: 1
+[Fri Mar 17 03:36:28 2017]  output:Node Names:
+[Fri Mar 17 03:36:28 2017]  output:User-PC
+[Fri Mar 17 03:36:28 2017]  output:*** CFD Screen File Output ***
+[Fri Mar 17 03:36:28 2017]  output:CFD 2017 (Raven Production) [20160317]
+[Fri Mar 17 03:36:28 2017]  output:Job Name = Scenario 1   Date created: Fri Mar 17 03:36:28 2017
+[Fri Mar 17 03:36:37 2017] Processing results ready
+[Fri Mar 17 03:36:37 2017]  output:1 file(s) copied.
+[Fri Mar 17 03:36:37 2017]  output:Partitioning a graph of size 5753 serially
+[Fri Mar 17 03:36:37 2017]  output:Final 2-way CUT:    186 	Balance: 1.000   avg: 1.000
+[Fri Mar 17 03:36:37 2017]  output:Broadcast element topology
+[Fri Mar 17 03:36:37 2017]  output:Distributing element data
+[Fri Mar 17 03:36:37 2017]  output:Processor 0 element parsing boundaries 2877 2877
+[Fri Mar 17 03:36:37 2017]  output:Processor 1 element parsing boundaries 2876 2876
+[Fri Mar 17 03:36:37 2017]  output:Distributing nodes
+[Fri Mar 17 03:36:37 2017]  output:Processor 0 node parsing boundaries 1119 1246 1246 1246
+[Fri Mar 17 03:36:37 2017]  output:Processor 1 node parsing boundaries 1119 1139 1139 1139
+[Fri Mar 17 03:36:37 2017]  output:local to global mapping
+[Fri Mar 17 03:36:37 2017]  output:Distributing field arrays
+[Fri Mar 17 03:36:37 2017]  output:Field Vector updates
+[Fri Mar 17 03:36:37 2017]  output:Distributing wall elements
+[Fri Mar 17 03:36:37 2017]  output:Distributing wall node data
+[Fri Mar 17 03:36:37 2017]  output:Distributing transient field arrays
+[Fri Mar 17 03:36:37 2017]  output:Distributing element BC data
+[Fri Mar 17 03:36:37 2017]  output:Set up flow matrix
+[Fri Mar 17 03:36:37 2017]  output:Building fluid ghost node communications
+[Fri Mar 17 03:36:37 2017]  output:Building fluid wall ghost node communications
+[Fri Mar 17 03:36:37 2017]  output:Building fluid assembly communications
+[Fri Mar 17 03:36:37 2017]  output:Building off-processor buffers
+[Fri Mar 17 03:36:37 2017]  output:Building optimal comm partners
+[Fri Mar 17 03:36:37 2017]  output:Checking parallel mapping pointers...
+[Fri Mar 17 03:36:37 2017]  output:Slaves report no flow mapping errors
+[Fri Mar 17 03:36:37 2017]  output:Master reports no flow mapping errors
+[Fri Mar 17 03:36:37 2017]  output:Distributing flow length data
+[Fri Mar 17 03:36:37 2017]  output:Setting affinity
+[Fri Mar 17 03:36:37 2017]  output:Setting affinity
+[Fri Mar 17 03:36:37 2017]  output:Ave Values = 0.000000 0.000000 -1.858003 2451.403932 273.150000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:37 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:38 2017]  output:Ave Values = -25.080382 6.726697 -2.824530 2451.403932 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:38 2017]  output:Iter   V     V     V     P     T     T
+[Fri Mar 17 03:36:38 2017]  output:1 0.00e+00 0.00e+00 0.00e+00 1.29e+02 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 3.204611e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 4.235681e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 2.309922e-03
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:38 2017]  output:Ave Values = -0.683878 0.022033 -5.996763 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:38 2017]  output:2 5.09e+00 8.10e+00 5.74e+02 2.74e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 4.340692e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 4.908189e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 2.069313e-03
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:38 2017]  output:Ave Values = -0.576289 0.014624 -9.541153 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:38 2017]  output:3 5.88e+00 8.70e+00 5.86e+02 2.80e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 5.733440e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 5.879775e-05
+[Fri Mar 17 03:36:38 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:38 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 6.198762e-03
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:39 2017]  output:Ave Values = -0.490692 0.008856 -13.745262 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:39 2017]  output:4 6.92e+00 9.52e+00 6.37e+02 2.87e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:39 2017]  output:Iteration Solve time: CPU time = 0.005000 Iterations = 9 Residual = 6.980312e-05
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:39 2017]  output:Iteration Solve time: CPU time = 0.006000 Iterations = 9 Residual = 6.866901e-05
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:39 2017]  output:Iteration Solve time: CPU time = 0.005000 Iterations = 8 Residual = 5.996878e-03
+[Fri Mar 17 03:36:39 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:40 2017]  output:Ave Values = -0.421515 0.004248 -18.439926 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:40 2017]  output:5 7.94e+00 1.04e+01 7.38e+02 2.95e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.015000 Iterations = 9 Residual = 8.005310e-05
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.007000 Iterations = 9 Residual = 7.767723e-05
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.005000 Iterations = 8 Residual = 5.832248e-03
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:40 2017]  output:Ave Values = -0.364970 0.000526 -23.548527 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:40 2017]  output:6 8.85e+00 1.12e+01 8.85e+02 3.04e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 8.724890e-05
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 8.513388e-05
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:40 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 5.682224e-03
+[Fri Mar 17 03:36:40 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:Ave Values = -0.318448 -0.002438 -29.006387 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:41 2017]  output:7 9.66e+00 1.18e+01 1.06e+03 3.11e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 9.132642e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 9.081630e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 8 Residual = 5.533834e-03
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:Ave Values = -0.280017 -0.004731 -34.777068 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:41 2017]  output:8 1.04e+01 1.25e+01 1.26e+03 3.18e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 9.278864e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.370532e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 8 Residual = 5.384131e-03
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:Ave Values = -0.248160 -0.006213 -40.794003 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:41 2017]  output:9 1.11e+01 1.30e+01 1.46e+03 3.25e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 9 Residual = 9.017868e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 9.490405e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 8 Residual = 5.251134e-03
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:Ave Values = -0.221793 -0.007055 -47.033348 1969.474380 0.000000 0.227311 1.030265 0.000000
+[Fri Mar 17 03:36:41 2017]  output:10 1.17e+01 1.35e+01 1.66e+03 3.31e+00 0.00e+00 0.00e+00
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 8.580494e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 9.368131e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 7 Residual = 1.725115e-02
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 6
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.001000 Iterations = 7 Residual = 8.336873e-02
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 7
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 7 Residual = 7.429288e+00
+[Fri Mar 17 03:36:41 2017]  output:Ave Values = -0.199962 -0.007236 -53.510027 1969.474380 0.000000 209.642386 6691.795622 0.000000
+[Fri Mar 17 03:36:41 2017]  output:11 1.23e+01 1.40e+01 1.85e+03 3.36e+00 2.87e+04 7.95e+05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 1
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 7.955062e-05
+[Fri Mar 17 03:36:41 2017]  output:solving kPhi 2
+[Fri Mar 17 03:36:41 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 9 Residual = 8.996806e-05
+[Fri Mar 17 03:36:42 2017]  output:solving kPhi 3
+[Fri Mar 17 03:36:42 2017]  output:Iteration Solve time: CPU time = 0.002000 Iterations = 7 Residual = 1.818001e-02
+[Fri Mar 17 03:36:42 2017]  output:solving kPhi 4
+[Fri Mar 17 03:36:45 2017]  output:C:\Program Files\Autodesk\CFD 2017>set E=-3
+[Fri Mar 17 03:36:45 2017]  output:C:\Program Files\Autodesk\CFD 2017>exit -3
+[Fri Mar 17 03:36:45 2017] Job finished with exit code = -3
+[Fri Mar 17 03:36:45 2017] Creating solver finished upload
+[Fri Mar 17 03:36:45 2017] Processing solver exited
+[Fri Mar 17 03:36:45 2017] Stopping messaging
+[Fri Mar 17 03:36:45 2017] Messaging has stopped
+[Fri Mar 17 03:36:45 2017] Stopping mail server
+[Fri Mar 17 03:36:45 2017] Mail server has stopped 1
+[Fri Mar 17 03:36:45 2017] Stopping mail server thread
+[Fri Mar 17 03:36:45 2017] Mail server thread has stopped
+[Fri Mar 17 03:36:45 2017] Exiting job manager

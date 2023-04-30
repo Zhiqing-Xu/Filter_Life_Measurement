@@ -1,0 +1,7 @@
+<cfd_design_studies version="17.0.20160317" user_name="XuZhiqing">
+ <design_study instance_id="id_not_defined" name="cfd_test_03" folder="C:\Users\XuZhiqing\Desktop\Project01-CFD_the_sys/cfd_test_03" study_id="79124a91-1151-4f20-8baf-8f27ba7b2604">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" name="Design 1" model_id="solid_for_CFD_test_03.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

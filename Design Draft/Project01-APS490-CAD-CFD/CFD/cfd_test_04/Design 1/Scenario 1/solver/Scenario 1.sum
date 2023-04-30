@@ -1,0 +1,129 @@
+﻿ *** CFD Summary File Output ***
+
+ CFD 2017 (Raven Production) [20160317]
+
+ Job Name = Scenario 1   Date created: Thu Feb  9 18:27:06 2017
+
+
+ *** Analysis Information 
+ Steady State is ON
+Turbulent Compressible Flow is ON 12 
+
+ *** Field Variable Results Summary For Iteration 500
+
+
+  Var      Mean          at      Max          at      Min
+ Vx Vel  +1.33184e+02    305 +1.84336e+03    309 -1.84336e+03 cm/s
+ Vy Vel  +7.43359e-02   2184 +1.15791e+03   1862 -1.25921e+03 cm/s
+ Vz Vel  +1.83996e+01   6538 +8.78374e+02   6634 -1.05817e+03 cm/s
+ Press  +2.71320e+04     40 +3.28743e+04     60 +1.88127e+04 dyne/cm^2
+ Temp  +0.00000e+00    235 +0.00000e+00    236 +0.00000e+00 C
+ TurbK  +1.15096e+04   2103 +6.59676e+05    236 +1.81700e-07 cm^2/s^2
+ TurbD  +2.07059e+06   2103 +2.18858e+08    309 +2.16843e-05 cm^2/s^3
+ Scal1  +0.00000e+00    235 +0.00000e+00    236 +0.00000e+00  
+ PTotl  +2.73402e+04     40 +3.28743e+04     60 +1.88127e+04 dyne/cm^2
+ EVisc  +1.04158e-02   5370 +2.24542e-01   1579 +1.81700e-04 g/cm-s
+ ECond  +1.06138e-02   2103 +2.16450e-01   1579 +2.56300e-04 W/cm-K
+ Dens  +1.20473e-03    235 +1.20473e-03    236 +1.20473e-03 g/cm^3
+ Visc  +1.81700e-04    235 +1.81700e-04    236 +1.81700e-04 g/cm-s
+ Cond  +2.56300e-04    235 +2.56300e-04    236 +2.56300e-04 W/cm-K
+ SpecH  +1.00400e+00    235 +1.00400e+00    236 +1.00400e+00 J/g-K
+ Emiss  +1.00000e+00    235 +1.00000e+00    236 +1.00000e+00  
+ Transmiss  +0.00000e+00    235 +0.00000e+00    236 +0.00000e+00  
+ WRough  +0.00000e+00    235 +0.00000e+00    236 +0.00000e+00 cm
+ SeeBeck  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 V/K
+ SHGC  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ Ufactor  +0.00000e+00      0 +0.00000e+00      0 +0.00000e+00 
+ GenT  +5.36484e+02    331 +1.36987e+04    252 +4.54430e+00 1/s
+
+
+*** Openings ***
+
+
+          *** Inlet 1 ***
+
+  Surface ID = 19
+
+  Node near Minimum X,Y,Z of opening = 31
+
+  Minimum X,Y,Z of opening = 29.042254, -3.208374, 2.540000
+
+     Mass Flow In             = -18.16 g/s
+     Volume Flow In          = -15073.9 cm^3/s
+     Reynolds Number         = 8586.53
+     Inlet Bulk Pressure     = 29837.5 dyne/cm^2
+     Inlet Bulk Temperature  = -0 C
+     Inlet Mach Number       = 0.00314242
+
+
+          *** Inlet 2 ***
+
+  Surface ID = 1
+
+  Node near Minimum X,Y,Z of opening = 4
+
+  Minimum X,Y,Z of opening = 3.775676, -7.937342, 0.000000
+
+     Mass Flow In             = 3.4113 g/s
+     Volume Flow In          = 2831.58 cm^3/s
+     Reynolds Number         = 1168.69
+     Inlet Bulk Pressure     = 24431.2 dyne/cm^2
+     Inlet Bulk Temperature  = 0 C
+     Inlet Mach Number       = 0.0368067
+
+  Total Mass Flow In     = -14.7487 g/s
+
+  Total Vol. Flow In     = -12242.3 cm^3/s
+
+
+          *** Statistics for Velocity Magnitude ***
+
+  Value Range [cm/s]             Percent Volume
+  0.000000 - 108.506469        9.090663
+  108.506469 - 217.012938        15.949857
+  217.012938 - 325.519406        11.062284
+  325.519406 - 434.025875        10.087187
+  434.025875 - 542.532344        9.808923
+  542.532344 - 651.038813        10.233130
+  651.038813 - 759.545282        11.541852
+  759.545282 - 868.051751        11.785786
+  868.051751 - 976.558219        5.540945
+  976.558219 - 1085.064688        2.128872
+  1085.064688 - 1193.571157        0.980354
+  1193.571157 - 1302.077626        0.682840
+  1302.077626 - 1410.584095        0.313814
+  1410.584095 - 1519.090563        0.235841
+  1519.090563 - 1627.597032        0.189645
+  1627.597032 - 1736.103501        0.028724
+  1736.103501 - 1844.609970        0.179994
+  1844.609970 - 1953.116439        0.074144
+  1953.116439 - 2061.622908        0.050011
+  2061.622908 - 2170.129376        0.035134
+Mean Value = 464.740810 , Standard Deviation = 360.066116 
+
+
+*** Sum of Fluid Forces on Walls ***
+   ShearX, PressX =       677.73         59564   dynes
+   ShearY, PressY =      -96.922        186.99   dynes
+   ShearZ, PressZ =      -148.77    1.0376e+07   dynes
+
+*** Data for fan curve BCs 
+
+Fan Curve Id = 3  Surface Id = 1
+Operating Pressure Rise = 9.80797 Inches of Water
+Operating FlowRate = 6 CFM
+
+
+*** Analysis Statistics: 
+
+ Input:                5 seconds 
+ Analysis:           307 seconds 
+ Output:               0 seconds 
+ Total:              312 seconds 
+
+ Master process dynamic memory 18 Mbytes
+ Slave process 0 dynamic memory 4 Mbytes
+ Slave process 1 dynamic memory 4 Mbytes
+ Slave process 2 dynamic memory 4 Mbytes
+ Slave process 3 dynamic memory 4 Mbytes
+ 

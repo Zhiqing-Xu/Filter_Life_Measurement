@@ -1,0 +1,110 @@
+[18:53:41] Loading qm files
+[18:53:41] System language is English
+[18:53:41] Completed pre-event loop tasks in 0.379 sec
+[18:53:41] Start processing tasks
+[18:53:41] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[18:53:41] Creating main view...
+[18:53:42] Creating actions...
+[18:53:42] Creating quick widgets...
+[18:53:42] Creating panel...
+[18:53:42] Creating status bar...
+[18:53:42] Creating tool bar...
+[18:53:42] Initializing menu...
+[18:53:42] Task finished in 0.219 sec
+[18:53:42] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[18:53:42] Task finished in 0.258 sec
+[18:53:42] Starting task: Clt::InitializationTasks::initializeWebServices
+[18:53:43] Task finished in 1.363 sec
+[18:53:43] Starting task: Clt::InitializationTasks::initializeSyncManager
+[18:53:43] Task finished in 0 sec
+[18:53:43] Starting task: Clt::InitializationTasks::initializeAirLook
+[18:53:44] Task finished in 0.929 sec
+[18:53:44] Starting task: Clt::InitializationTasks::initializeServerGroup
+[18:53:44] Task finished in 0.002 sec
+[18:53:44] Starting task: Clt::InitializationTasks::initializeHelpManager
+[18:53:44] Task finished in 0.003 sec
+[18:53:44] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[18:53:45] Task finished in 0.1 sec
+[18:53:45] Starting task: Clt::InitializationTasks::assignShortcuts
+[18:53:45] Task finished in 0 sec
+[18:53:45] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[18:53:45] Task finished in 0 sec
+[18:53:45] Starting task: Clt::InitializationTasks::initializeGAT
+[18:53:45] Task finished in 0 sec
+[18:53:45] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[18:53:45] Task finished in 0.007 sec
+[18:53:45] Starting task: Clt::InitializationTasks::initializeLicensing
+[18:53:45] Creating license manager...
+[18:53:45] Initializing license manager...
+[18:53:46] Checking out UI license...
+[18:53:46] Authorizing CFD UI...
+[18:53:47] License path is 
+[18:53:47] Task finished in 2.502 sec
+[18:53:47] Starting task: Clt::InitializationTasks::checkForLicensingError
+[18:53:47] Task finished in 0 sec
+[18:53:47] Starting task: Clt::InitializationTasks::startCIP
+[18:53:47] DAP 812I1 CFD UI 2017.0.0.F 066-66666666 Permanent Commercial 
+[18:53:47] Task finished in 0.172 sec
+[18:53:47] Starting task: Clt::InitializationTasks::showMainWindow
+[18:53:47] Loading layout...
+[18:53:47] Task finished in 0.142 sec
+[18:53:48] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[18:53:48] Task finished in 0.043 sec
+[18:53:48] Starting task: Clt::InitializationTasks::hideSplashScreen
+[18:53:48] Task finished in 0.006 sec
+[18:53:48] Starting task: Clt::InitializationTasks::initializeCustomResults
+[18:53:48] Task finished in 0.027 sec
+[18:53:48] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[18:53:48] Task finished in 0 sec
+[18:53:48] Starting task: Clt::InitializationTasks::initializePythonHooks
+[18:53:48] Loading CFD resource file...
+[18:53:52] Task finished in 3.961 sec
+[18:53:52] Starting task: Clt::InitializationTasks::runScript
+[18:53:52] Task finished in 0 sec
+[18:53:52] Finished processing tasks in 10.288 sec
+[18:54:21] External fragmentation is 0
+[18:54:21] Internal fragmentation is 0.938029
+[18:54:22] External fragmentation is 0
+[18:54:22] Internal fragmentation is 0.119143
+[18:54:24] External fragmentation is 0
+[18:54:24] Internal fragmentation is 0.19275
+[19:06:34] External fragmentation is 0
+[19:06:34] Internal fragmentation is 0.965454
+[19:06:34] External fragmentation is 0
+[19:06:34] Internal fragmentation is 0.119086
+[19:06:34] External fragmentation is 0
+[19:06:34] Internal fragmentation is 0.177532
+[19:23:08] ### Critical: source\clt_job_submitter.cpp 434
+The Scenario cannot run because a part has an unassigned material setting
+
+[19:25:08] ### Critical: source\clt_job_submitter.cpp 434
+The Scenario cannot run because a part has an unassigned material setting
+
+[19:25:11] ### Critical: source\clt_job_submitter.cpp 434
+The Scenario cannot run because a part has an unassigned material setting
+
+[19:29:44] ### Critical: source\clt_job_submitter.cpp 434
+The Scenario cannot run because a part has an unassigned material setting
+
+[19:30:29] Analysis::writeGBIFile = 0.002 sec
+[19:30:30] Analysis::exportJobFiles = 0.018 sec
+[19:30:30] test06_1/Design 1/Scenario 1 job started at Tue Mar 14 19:30:30 2017 on ZHIQINGXU
+[19:30:31] test06_1/Design 1/Scenario 1 mesher started at Tue Mar 14 19:30:31 2017 on ZHIQINGXU
+[19:30:33] test06_1/Design 1/Scenario 1 mesher finished at Tue Mar 14 19:30:33 2017 on ZHIQINGXU with code = 0
+[19:30:33] Analysis::importMesherFiles = 0 sec
+[19:30:33] CADModel::loadGeometryDatabase = 0.013 sec
+[19:30:33] Mesher finished copying files
+[19:30:34] test06_1/Design 1/Scenario 1 solver started at Tue Mar 14 19:30:34 2017 on ZHIQINGXU
+[19:30:51] ### Critical: source\cfd_flomain.c 283
+The (motion) Solver license could not be checked out from the license server
+
+[19:33:27] test06_1/Design 1/Scenario 1 solver finished at Tue Mar 14 19:33:27 2017 on ZHIQINGXU with code = 41
+[19:33:27] Unable to inject glr
+[19:33:27] Unable to inject gls
+[19:33:27] Unable to inject glv
+[19:33:27] Unable to inject sum
+[19:33:27] Unable to inject gm
+[19:33:27] Unable to inject bc
+[19:33:27] Analysis::importSolverFiles = 0 sec
+[19:33:27] Cannot open summary file on disk
+[19:33:27] Unable to inject sprtx

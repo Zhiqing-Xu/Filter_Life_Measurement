@@ -1,0 +1,117 @@
+[22:58:42] Loading qm files
+[22:58:42] System language is English
+[22:58:42] material searching atC:\ProgramData\Autodesk\CFD 2017
+[22:58:43] Completed pre-event loop tasks in 0.298 sec
+[22:58:43] Start processing tasks
+[22:58:43] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[22:58:43] Creating main view...
+[22:58:43] Creating actions...
+[22:58:43] Creating quick widgets...
+[22:58:43] Creating panel...
+[22:58:43] Creating status bar...
+[22:58:43] Creating tool bar...
+[22:58:43] Initializing menu...
+[22:58:43] Task finished in 0.167 sec
+[22:58:43] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[22:58:43] Task finished in 0.295 sec
+[22:58:43] Starting task: Clt::InitializationTasks::initializeWebServices
+[22:58:44] Task finished in 1.065 sec
+[22:58:44] Starting task: Clt::InitializationTasks::initializeSyncManager
+[22:58:44] Task finished in 0 sec
+[22:58:44] Starting task: Clt::InitializationTasks::initializeAirLook
+[22:58:45] Task finished in 0.806 sec
+[22:58:45] Starting task: Clt::InitializationTasks::initializeServerGroup
+[22:58:45] Task finished in 0 sec
+[22:58:45] Starting task: Clt::InitializationTasks::initializeHelpManager
+[22:58:45] Task finished in 0 sec
+[22:58:45] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[22:58:45] Task finished in 0.117 sec
+[22:58:45] Starting task: Clt::InitializationTasks::assignShortcuts
+[22:58:45] Task finished in 0 sec
+[22:58:45] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[22:58:45] Task finished in 0 sec
+[22:58:45] Starting task: Clt::InitializationTasks::initializeGAT
+[22:58:45] Task finished in 0 sec
+[22:58:45] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[22:58:45] Task finished in 0.002 sec
+[22:58:45] Starting task: Clt::InitializationTasks::initializeLicensing
+[22:58:45] Creating license manager...
+[22:58:45] Initializing license manager...
+[22:58:47] Checking out UI license...
+[22:58:47] Authorizing CFD UI...
+[23:00:46] Basic solver license folder is different from UI
+[23:00:46] Advanced solver license folder is different from UI
+[23:00:46] Motion solver license folder is different from UI
+[23:00:46] License path is 
+[23:00:46] Task finished in 120.324 sec
+[23:00:46] Starting task: Clt::InitializationTasks::checkForLicensingError
+[23:00:46] Task finished in 0 sec
+[23:00:46] Starting task: Clt::InitializationTasks::startCIP
+[23:00:46] DAP 812I1 CFD UI 2017.0.0.F 066-69696969 Permanent Commercial 
+[23:00:46] Task finished in 0.054 sec
+[23:00:46] Starting task: Clt::InitializationTasks::showMainWindow
+[23:00:46] Loading layout...
+[23:00:46] Task finished in 0.221 sec
+[23:00:46] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[23:00:46] Task finished in 0.049 sec
+[23:00:46] Starting task: Clt::InitializationTasks::hideSplashScreen
+[23:00:46] Task finished in 0 sec
+[23:00:46] Starting task: Clt::InitializationTasks::initializeCustomResults
+[23:00:46] Task finished in 0 sec
+[23:00:46] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[23:00:46] Task finished in 0 sec
+[23:00:46] Starting task: Clt::InitializationTasks::initializePythonHooks
+[23:00:46] Loading CFD resource file...
+[23:00:46] Task finished in 0.08 sec
+[23:00:46] Starting task: Clt::InitializationTasks::runScript
+[23:00:46] Task finished in 0 sec
+[23:00:46] Finished processing tasks in 123.554 sec
+[23:00:48] Authorizing CFD Basic...
+[23:00:52] Failed to get feature authorization: Fail (1)
+[23:00:52] Authorizing CFD Advanced...
+[23:00:55] Failed to get feature authorization: Fail (1)
+[23:00:55] Authorizing CFD Motion...
+[23:01:00] Failed to get feature authorization: Fail (1)
+[23:01:04] CFD Basic is not authorized, nothing to release
+[23:01:04] CFD Advanced is not authorized, nothing to release
+[23:01:04] CFD Motion is not authorized, nothing to release
+[23:01:22] External fragmentation is 0
+[23:01:22] Internal fragmentation is 0.963664
+[23:01:22] External fragmentation is 0
+[23:01:22] Internal fragmentation is 0.118891
+[23:01:22] External fragmentation is 0
+[23:01:22] Internal fragmentation is 0.177449
+[23:01:22] CFD Basic is not authorized, nothing to release
+[23:01:22] CFD Advanced is not authorized, nothing to release
+[23:01:22] CFD Motion is not authorized, nothing to release
+[23:01:27] Analysis::writeGBIFile = 0 sec
+[23:01:27] Analysis::exportJobFiles = 0.003 sec
+[23:01:28] cfd_test_04_support_1_support_2_support/Design 1/Scenario 1 job started at Thu Mar 16 23:01:28 2017 on ZHIQINGXU
+[23:01:28] cfd_test_04_support_1_support_2_support/Design 1/Scenario 1 mesher started at Thu Mar 16 23:01:28 2017 on ZHIQINGXU
+[23:01:32] cfd_test_04_support_1_support_2_support/Design 1/Scenario 1 mesher finished at Thu Mar 16 23:01:32 2017 on ZHIQINGXU with code = 0
+[23:01:32] Analysis::importMesherFiles = 0.001 sec
+[23:01:32] CADModel::loadGeometryDatabase = 0.049 sec
+[23:01:32] Mesher finished copying files
+[23:01:32] cfd_test_04_support_1_support_2_support/Design 1/Scenario 1 solver started at Thu Mar 16 23:01:32 2017 on ZHIQINGXU
+[23:01:39] ### Critical: source\cfd_flomain.c 283
+The (motion) Solver license could not be checked out from the license server
+
+[23:03:18] Authorizing CFD Basic...
+[23:03:22] Failed to get feature authorization: Fail (1)
+[23:03:22] Authorizing CFD Advanced...
+[23:03:25] Failed to get feature authorization: Fail (1)
+[23:03:25] Authorizing CFD Motion...
+[23:03:27] Failed to get feature authorization: Fail (1)
+[23:03:37] CFD Basic is not authorized, nothing to release
+[23:03:37] CFD Advanced is not authorized, nothing to release
+[23:03:37] CFD Motion is not authorized, nothing to release
+[23:04:15] cfd_test_04_support_1_support_2_support/Design 1/Scenario 1 solver finished at Thu Mar 16 23:04:15 2017 on ZHIQINGXU with code = 41
+[23:04:15] Unable to inject glr
+[23:04:15] Unable to inject gls
+[23:04:15] Unable to inject glv
+[23:04:15] Unable to inject sum
+[23:04:15] Unable to inject gm
+[23:04:15] Unable to inject bc
+[23:04:15] Analysis::importSolverFiles = 0 sec
+[23:04:15] Cannot open summary file on disk
+[23:04:15] Unable to inject sprtx

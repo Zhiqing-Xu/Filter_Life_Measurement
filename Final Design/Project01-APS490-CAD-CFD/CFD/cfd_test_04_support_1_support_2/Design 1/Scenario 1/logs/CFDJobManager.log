@@ -1,0 +1,30 @@
+[Thu Mar 16 22:05:50 2017] Reading CPU information from SystemInfo.xml
+[Thu Mar 16 22:05:50 2017] Processors: 1, Cores per processor: 4
+[Thu Mar 16 22:05:50 2017] Requested cores 0
+[Thu Mar 16 22:05:50 2017] Using 5 ranks
+[Thu Mar 16 22:05:50 2017] analysis path:C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-APS490-CAD-CFD\CFD\cfd_test_04_support_1_support_2\Design 1\Scenario 1
+[Thu Mar 16 22:05:50 2017] Listen on port 61778
+[Thu Mar 16 22:05:50 2017] Email file: C:\ProgramData\Autodesk\CFD 2017\Analyze\job14/email.xml
+[Thu Mar 16 22:05:50 2017] startJob
+[Thu Mar 16 22:05:50 2017] Creating C:\ProgramData\Autodesk\CFD 2017\Analyze\job14/job.bat
+[Thu Mar 16 22:05:50 2017] Command: cmd.exe /c job.bat
+[Thu Mar 16 22:05:50 2017]  output:C:\ProgramData\Autodesk\CFD 2017\Analyze\job14>CD C:\Program Files\Autodesk\CFD 2017
+[Thu Mar 16 22:05:50 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\CFDMesher.exe" "C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-APS490-CAD-CFD\CFD\cfd_test_04_support_1_support_2\Des
+[Thu Mar 16 22:05:50 2017]  output:ign 1\Scenario 1\mesher\Scenario 1" -jobId=14 -cloudJobId=  -gui  -useJobFile  -port=61778
+[Thu Mar 16 22:05:57 2017] Processing mesher exited
+[Thu Mar 16 22:05:58 2017]  output:C:\Program Files\Autodesk\CFD 2017>set E=0
+[Thu Mar 16 22:05:58 2017]  output:C:\Program Files\Autodesk\CFD 2017>IF 0 NEQ 0 goto EOF
+[Thu Mar 16 22:05:58 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\mpiexec.exe" -n 5 "C:\Program Files\Autodesk\CFD 2017\CFDSolver.exe" "C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-
+[Thu Mar 16 22:05:58 2017]  output:APS490-CAD-CFD\CFD\cfd_test_04_support_1_support_2\Design 1\Scenario 1\solver\Scenario 1" -jobId=14 -cloudJobId=  -gui  -useJobFile  -port=61778 -mpi
+[Thu Mar 16 22:05:58 2017]  output:Server = 127.0.0.1
+[Thu Mar 16 22:05:58 2017]  output:Program Dir = C:/Program Files/Autodesk/CFD 2017
+[Thu Mar 16 22:05:58 2017]  output:Analysis Path = C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-APS490-CAD-CFD\CFD\cfd_test_04_support_1_support_2\Design 1\Scenario 1/solver
+[Thu Mar 16 22:05:58 2017]  output:Analysis Name = Scenario 1
+[Thu Mar 16 22:05:58 2017]  output:Master Node is:ZhiqingXu
+[Thu Mar 16 22:05:58 2017]  output:Number of ranks: 5
+[Thu Mar 16 22:05:58 2017]  output:Number of Nodes: 1
+[Thu Mar 16 22:05:58 2017]  output:Node Names:
+[Thu Mar 16 22:05:58 2017]  output:ZhiqingXu
+[Thu Mar 16 22:05:58 2017]  output:*** CFD Screen File Output ***
+[Thu Mar 16 22:05:58 2017]  output:CFD 2017 (Raven Production) [20160317]
+[Thu Mar 16 22:05:58 2017]  output:Job Name = Scenario 1   Date created: Thu Mar 16 22:05:58 2017

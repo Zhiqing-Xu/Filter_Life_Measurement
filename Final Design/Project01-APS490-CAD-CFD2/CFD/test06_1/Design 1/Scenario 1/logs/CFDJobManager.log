@@ -1,0 +1,37 @@
+[Tue Mar 14 19:33:29 2017] Reading CPU information from SystemInfo.xml
+[Tue Mar 14 19:33:29 2017] Processors: 1, Cores per processor: 4
+[Tue Mar 14 19:33:29 2017] Requested cores 0
+[Tue Mar 14 19:33:29 2017] Using 5 ranks
+[Tue Mar 14 19:33:29 2017] analysis path:C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-APS490-CAD-CFD\CFD\test06_1\Design 1\Scenario 1
+[Tue Mar 14 19:33:29 2017] Listen on port 65052
+[Tue Mar 14 19:33:29 2017] Email file: C:\ProgramData\Autodesk\CFD 2017\Analyze\job13/email.xml
+[Tue Mar 14 19:33:29 2017] startJob
+[Tue Mar 14 19:33:29 2017] Creating C:\ProgramData\Autodesk\CFD 2017\Analyze\job13/job.bat
+[Tue Mar 14 19:33:29 2017] Command: cmd.exe /c job.bat
+[Tue Mar 14 19:33:29 2017]  output:C:\ProgramData\Autodesk\CFD 2017\Analyze\job13>CD C:\Program Files\Autodesk\CFD 2017
+[Tue Mar 14 19:33:29 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\mpiexec.exe" -n 5 "C:\Program Files\Autodesk\CFD 2017\CFDSolver.exe" "C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-
+[Tue Mar 14 19:33:29 2017]  output:APS490-CAD-CFD\CFD\test06_1\Design 1\Scenario 1\solver\Scenario 1" -jobId=13 -cloudJobId=  -gui  -useJobFile  -port=65052 -mpi
+[Tue Mar 14 19:33:29 2017]  output:Server = 127.0.0.1
+[Tue Mar 14 19:33:29 2017]  output:Program Dir = C:/Program Files/Autodesk/CFD 2017
+[Tue Mar 14 19:33:29 2017]  output:Analysis Path = C:\Users\XuZhiqing\Desktop\APS490 Design Review\Project01-APS490-CAD-CFD\CFD\test06_1\Design 1\Scenario 1/solver
+[Tue Mar 14 19:33:29 2017]  output:Analysis Name = Scenario 1
+[Tue Mar 14 19:33:29 2017]  output:Master Node is:ZhiqingXu
+[Tue Mar 14 19:33:29 2017]  output:Number of ranks: 5
+[Tue Mar 14 19:33:29 2017]  output:Number of Nodes: 1
+[Tue Mar 14 19:33:29 2017]  output:Node Names:
+[Tue Mar 14 19:33:29 2017]  output:ZhiqingXu
+[Tue Mar 14 19:33:29 2017]  output:*** CFD Screen File Output ***
+[Tue Mar 14 19:33:29 2017]  output:CFD 2017 (Raven Production) [20160317]
+[Tue Mar 14 19:33:29 2017]  output:Job Name = Scenario 1   Date created: Tue Mar 14 19:33:29 2017
+[Tue Mar 14 19:36:10 2017]  output:C:\Program Files\Autodesk\CFD 2017>set E=41
+[Tue Mar 14 19:36:10 2017]  output:C:\Program Files\Autodesk\CFD 2017>exit 41
+[Tue Mar 14 19:36:10 2017] Job finished with exit code = 41
+[Tue Mar 14 19:36:10 2017] Creating solver finished upload
+[Tue Mar 14 19:36:10 2017] Processing solver exited
+[Tue Mar 14 19:36:10 2017] Stopping messaging
+[Tue Mar 14 19:36:10 2017] Messaging has stopped
+[Tue Mar 14 19:36:10 2017] Stopping mail server
+[Tue Mar 14 19:36:10 2017] Mail server has stopped 1
+[Tue Mar 14 19:36:10 2017] Stopping mail server thread
+[Tue Mar 14 19:36:10 2017] Mail server thread has stopped
+[Tue Mar 14 19:36:10 2017] Exiting job manager

@@ -1,0 +1,81 @@
+[13:57:30] Loading qm files
+[13:57:31] System language is English
+[13:57:31] Completed pre-event loop tasks in 0.255 sec
+[13:57:31] Start processing tasks
+[13:57:31] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[13:57:31] Creating main view...
+[13:57:31] Creating actions...
+[13:57:31] Creating quick widgets...
+[13:57:31] Creating panel...
+[13:57:31] Creating status bar...
+[13:57:31] Creating tool bar...
+[13:57:31] Initializing menu...
+[13:57:31] Task finished in 0.16 sec
+[13:57:31] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[13:57:31] Task finished in 0.424 sec
+[13:57:31] Starting task: Clt::InitializationTasks::initializeWebServices
+[13:57:34] Task finished in 2.56 sec
+[13:57:34] Starting task: Clt::InitializationTasks::initializeSyncManager
+[13:57:34] Task finished in 0 sec
+[13:57:34] Starting task: Clt::InitializationTasks::initializeAirLook
+[13:57:35] Task finished in 1.152 sec
+[13:57:35] Starting task: Clt::InitializationTasks::initializeServerGroup
+[13:57:35] Task finished in 0.001 sec
+[13:57:35] Starting task: Clt::InitializationTasks::initializeHelpManager
+[13:57:35] Task finished in 0 sec
+[13:57:35] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[13:57:35] Task finished in 0.11 sec
+[13:57:35] Starting task: Clt::InitializationTasks::assignShortcuts
+[13:57:35] Task finished in 0 sec
+[13:57:35] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[13:57:35] Task finished in 0 sec
+[13:57:35] Starting task: Clt::InitializationTasks::initializeGAT
+[13:57:35] Task finished in 0 sec
+[13:57:35] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[13:57:35] Task finished in 0.002 sec
+[13:57:35] Starting task: Clt::InitializationTasks::initializeLicensing
+[13:57:35] Creating license manager...
+[13:57:35] Initializing license manager...
+[13:57:36] Checking out UI license...
+[13:57:36] Authorizing CFD UI...
+[13:57:38] License path is 
+[13:57:38] Task finished in 2.54 sec
+[13:57:38] Starting task: Clt::InitializationTasks::checkForLicensingError
+[13:57:38] Task finished in 0 sec
+[13:57:38] Starting task: Clt::InitializationTasks::startCIP
+[13:57:38] DAP 812I1 CFD UI 2017.0.0.F 066-66666666 Permanent Commercial 
+[13:57:38] Task finished in 0.039 sec
+[13:57:38] Starting task: Clt::InitializationTasks::showMainWindow
+[13:57:38] Loading layout...
+[13:57:38] Task finished in 0.148 sec
+[13:57:38] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[13:57:38] Task finished in 0.047 sec
+[13:57:38] Starting task: Clt::InitializationTasks::hideSplashScreen
+[13:57:38] Task finished in 0.001 sec
+[13:57:38] Starting task: Clt::InitializationTasks::initializeCustomResults
+[13:57:38] Task finished in 0 sec
+[13:57:38] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[13:57:38] Task finished in 0 sec
+[13:57:38] Starting task: Clt::InitializationTasks::initializePythonHooks
+[13:57:38] Loading CFD resource file...
+[13:57:38] Task finished in 0.127 sec
+[13:57:38] Starting task: Clt::InitializationTasks::runScript
+[13:57:38] Task finished in 0 sec
+[13:57:38] Finished processing tasks in 7.744 sec
+[14:17:01] Analysis::writeGBIFile = 0.001 sec
+[14:17:01] Analysis::exportJobFiles = 0.004 sec
+[14:17:01] cfd_test_01/Design 1/Scenario 1 job started at Thu Feb 2 14:17:01 2017 on ZHIQINGXU
+[14:17:02] cfd_test_01/Design 1/Scenario 1 mesher started at Thu Feb 2 14:17:02 2017 on ZHIQINGXU
+[14:17:03] ### Critical: source\cfm_meshcore.cpp 3847
+Surface 4 cannot be meshed near 27.305 2.33295e-16 20.32 (1103)
+
+[14:17:03] cfd_test_01/Design 1/Scenario 1 mesher finished at Thu Feb 2 14:17:03 2017 on ZHIQINGXU with code = 1
+[14:17:03] cfd_test_01/Design 1/Scenario 1 job finished at Thu Feb 2 14:17:03 2017 on ZHIQINGXU
+[14:19:07] Analysis::writeGBIFile = 0.001 sec
+[14:19:07] Analysis::exportJobFiles = 0.002 sec
+[14:19:07] cfd_test_01/Design 1/Scenario 1 job started at Thu Feb 2 14:19:07 2017 on ZHIQINGXU
+[14:19:07] cfd_test_01/Design 1/Scenario 1 mesher started at Thu Feb 2 14:19:07 2017 on ZHIQINGXU
+[14:19:08] ### Critical: source\cfm_meshcore.cpp 3847
+Surface 4 cannot be meshed near 27.305 2.33295e-16 20.32 (1103)
+
+[14:19:08] cfd_test_01/Design 1/Scenario 1 mesher finished at Thu Feb 2 14:19:08 2017 on ZHIQINGXU with code = 1

@@ -1,0 +1,7 @@
+<cfd_design_studies version="17.0.20160317" user_name="XuZhiqing">
+ <design_study instance_id="id_not_defined" name="cfd_test_04_support_1_support_2" folder="C:/Users/XuZhiqing/Desktop/APS490 Design Review/Project01-APS490-CAD-CFD/CFD/cfd_test_04_support_1_support_2" study_id="c6b131f5-1cbc-4932-9c96-585a1bb98431">
+  <design launcher_type="CP_ASM_INVENTOR_IMPORT" name="Design 1" model_id="solid_for_CFD_test_05.cfdsmt" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

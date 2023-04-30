@@ -1,0 +1,52 @@
+﻿      19       6
+       1       0
+Iteration 500
+Scenario 1.glp CFD 17.0
+"Scenario 1.gls 1" Velocity Magnitude
+"Scenario 1.gls 2" Vx-Velocity
+"Scenario 1.gls 3" Vy-Velocity
+"Scenario 1.gls 4" Vz-Velocity
+"Scenario 1.gls 5" Static Pressure
+"Scenario 1.gls 6" Temperature
+"Scenario 1.gls 7" Scalar variable
+"Scenario 1.gls 8" Density
+"Scenario 1.gls 9" Viscosity
+"Scenario 1.gls 10" Shear Stress XY (Tau-XY)
+"Scenario 1.gls 11" Shear Stress YZ (Tau-YZ)
+"Scenario 1.gls 12" Shear Stress ZX (Tau-ZX)
+"Scenario 1.gls 13" Shear Stress (Tau) Magnitude
+"Scenario 1.gls 14" Wall Film Coefficients
+"Scenario 1.gls 15" Wall Heat Flux
+"Scenario 1.gls 16" Absolute Pressure
+"Scenario 1.gls 17" Total Pressure
+"Scenario 1.gls 18" Total Temperature
+"Scenario 1.gls 19" Mach Number
+"Scenario 1.glv 1" Velocity Vector
+"Scenario 1.glv 2" XY Proj. Velocity Vector
+"Scenario 1.glv 3" XZ Proj. Velocity Vector
+"Scenario 1.glv 4" YZ Proj. Velocity Vector
+"Scenario 1.glv 5" Shear Stress (Tau)
+"Scenario 1.glv 6" Wall Heat Flux
+
+*** Surface Result Data ****
+SurfId    TAvg        TNear        QHeat        QFlow        MDot        AvgP           AvgF      MDotCpT   solar_flux_in    rad_flux_net
+1   8.5265e-13  -3.0127e-12            0       2831.6       3.4113       6325.2            0   3.8937e-13            0            0
+2   1.1369e-13  -2.7853e-12            0            0            0       6092.9            0           -0            0            0
+3  -2.2737e-13  -2.1032e-12            0            0            0       6151.4            0           -0            0            0
+4   1.7053e-13  -2.9559e-12            0            0            0         6000            0           -0            0            0
+5  -2.2737e-13  -1.9895e-12            0            0            0       6148.5            0           -0            0            0
+6  -2.8422e-13   1.1084e-11            0            0            0       8768.8            0           -0            0            0
+7   5.6843e-13  -3.8654e-12            0            0            0        12637            0           -0            0            0
+8  -6.2528e-13   1.1767e-11            0            0            0        17144            0           -0            0            0
+9   6.2528e-13  -3.9222e-12            0            0            0        21545            0           -0            0            0
+10   8.5265e-13   1.2506e-12            0            0            0        24429            0           -0            0            0
+11   1.7053e-13  -3.1264e-12            0            0            0        26159            0           -0            0            0
+12  -1.7053e-13  -1.5348e-12            0            0            0        26170            0           -0            0            0
+13   2.2737e-13  -3.2401e-12            0            0            0        26162            0           -0            0            0
+14  -1.7053e-13  -1.7053e-12            0            0            0        26173            0           -0            0            0
+15  -2.2737e-13    -2.16e-12            0            0            0        26375            0           -0            0            0
+16  -1.1369e-13   6.8212e-13            0            0            0        26392            0           -0            0            0
+17  -1.7053e-13  -2.2169e-12            0            0            0        26376            0           -0            0            0
+18  -1.1369e-13   6.8212e-13            0            0            0        26383            0           -0            0            0
+19   6.2528e-13  -3.2401e-12            0       -15074       -18.16        26472            0           -0            0            0
+-1

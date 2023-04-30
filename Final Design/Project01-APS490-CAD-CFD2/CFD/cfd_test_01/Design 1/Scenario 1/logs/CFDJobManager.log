@@ -1,0 +1,25 @@
+[Thu Feb 2 14:19:07 2017] Reading CPU information from SystemInfo.xml
+[Thu Feb 2 14:19:07 2017] Processors: 1, Cores per processor: 4
+[Thu Feb 2 14:19:07 2017] Requested cores 0
+[Thu Feb 2 14:19:07 2017] Using 5 ranks
+[Thu Feb 2 14:19:07 2017] analysis path:C:\Users\XuZhiqing\Desktop\Project01-CFD_the_sys\cfd_test_01\Design 1\Scenario 1
+[Thu Feb 2 14:19:07 2017] Listen on port 59374
+[Thu Feb 2 14:19:07 2017] Email file: C:\ProgramData\Autodesk\CFD 2017\Analyze\job2/email.xml
+[Thu Feb 2 14:19:07 2017] startJob
+[Thu Feb 2 14:19:07 2017] Creating C:\ProgramData\Autodesk\CFD 2017\Analyze\job2/job.bat
+[Thu Feb 2 14:19:07 2017] Command: cmd.exe /c job.bat
+[Thu Feb 2 14:19:07 2017]  output:C:\ProgramData\Autodesk\CFD 2017\Analyze\job2>CD C:\Program Files\Autodesk\CFD 2017
+[Thu Feb 2 14:19:07 2017]  output:C:\Program Files\Autodesk\CFD 2017>"C:\Program Files\Autodesk\CFD 2017\CFDMesher.exe" "C:\Users\XuZhiqing\Desktop\Project01-CFD_the_sys\cfd_test_01\Design 1\Scenario 1\mesher\Scenario 1" -jobId=2 -cl
+[Thu Feb 2 14:19:07 2017]  output:oudJobId=  -gui  -useJobFile  -port=59374
+[Thu Feb 2 14:19:08 2017] Processing mesher exited
+[Thu Feb 2 14:19:08 2017]  output:C:\Program Files\Autodesk\CFD 2017>set E=1
+[Thu Feb 2 14:19:08 2017]  output:C:\Program Files\Autodesk\CFD 2017>IF 1 NEQ 0 goto EOF
+[Thu Feb 2 14:19:08 2017]  output:C:\Program Files\Autodesk\CFD 2017>exit 1
+[Thu Feb 2 14:19:08 2017] Job finished with exit code = 1
+[Thu Feb 2 14:19:08 2017] Stopping messaging
+[Thu Feb 2 14:19:08 2017] Messaging has stopped
+[Thu Feb 2 14:19:08 2017] Stopping mail server
+[Thu Feb 2 14:19:08 2017] Mail server has stopped 1
+[Thu Feb 2 14:19:08 2017] Stopping mail server thread
+[Thu Feb 2 14:19:08 2017] Mail server thread has stopped
+[Thu Feb 2 14:19:08 2017] Exiting job manager

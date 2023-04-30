@@ -1,0 +1,119 @@
+Model successfully read and processed
+Meshing constraints read successfully.
+(0) Surface Meshing started
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Face Meshing started
+(1) Face Meshing 1/8
+tag = 1, type = Plane -> CFdesign ID = 1
+(1) Face Meshing 2/8
+tag = 2, type = Plane -> CFdesign ID = 2
+(1) Face Meshing 3/8
+tag = 3, type = Unknown -> CFdesign ID = 3
+(1) Face Meshing 4/8
+tag = 4, type = Plane -> CFdesign ID = 4
+(1) Face Meshing 5/8
+tag = 5, type = Plane -> CFdesign ID = 5
+(1) Face Meshing 6/8
+tag = 6, type = Plane -> CFdesign ID = 6
+(1) Face Meshing 7/8
+tag = 7, type = Plane -> CFdesign ID = 7
+(1) Face Meshing 8/8
+tag = 8, type = Plane -> CFdesign ID = 8
+(1) Face Meshing finished: CPU time: 0.109375 s, clock time: 0.131 s
+(1) Structured Meshing started
+(1) Structured Meshing finished: CPU time: 0 s, clock time: 0 s
+(1) Surface Mesh Improver started
+(2) Surface Mesh Improvement started
+50% completed
+100% completed
+(2) Surface Mesh Improvement finished: CPU time: 0 s, clock time: 0.004 s
+(2) Surface Smoothing started
+25% completed
+50% completed
+75% completed
+100% completed
+(2) Surface Smoothing finished: CPU time: 0.015625 s, clock time: 0.014 s
+(2) Fix Surface Intersections started
+(2) Fix Surface Intersections finished: CPU time: 0.015625 s, clock time: 0.017 s
+(1) Surface Mesh Improver finished: CPU time: 0.03125 s, clock time: 0.035 s
+(0) Surface Meshing finished: CPU time: 0.140625 s, clock time: 0.177 s
+  Nodal Aspect Ratio Summary
+Surface 1: 2.0953
+Surface 2: 1.83244
+Surface 3: 2.19339
+Surface 4: 3.04721
+Surface 5: 3.04721
+Surface 6: 3.04721
+Surface 7: 3.04721
+Surface 8: 2.74151
+Maximum nodal aspect ratio: 3.04721
+(0) Volume Meshing started
+(1) Structured Meshing started
+Number of 3D Boundary Layers identified: 6
+Number of BL regions estimated = 2814
+Boundary Layer meshing
+Finding growth curves...
+Checking boundary growth curves...
+Checking intersecting layers...
+Edge triangulation
+Face triangulation
+(2) Adapting Mesh started
+Iteration 1: Normalized edge length range: 1.65084 .. 0.700766
+Final normalized edge length range: 1.44559 .. 0.435424
+(2) Adapting Mesh finished: CPU time: 0 s, clock time: 0.002 s
+(2) Fix Surface Intersections started
+(2) Fix Surface Intersections finished: CPU time: 0.015625 s, clock time: 0.015 s
+Region triangulation
+Number of BL regions created = 2814
+(1) Structured Meshing finished: CPU time: 0.09375 s, clock time: 0.137 s
+(1) Creating volume mesh started
+(1) Creating volume mesh finished: CPU time: 0.15625 s, clock time: 0.167 s
+(1) Adapting Mesh started
+Iteration 1: Normalized edge length range: 2.42069 .. 0.471334
+Iteration 2: Normalized edge length range: 1.81473 .. 0.471334
+Final normalized edge length range: 1.4496 .. 0.355048
+(1) Adapting Mesh finished: CPU time: 0.046875 s, clock time: 0.046 s
+(1) Volume Mesh Improver started
+(2) Volume Optimization started
+(2) Volume Optimization finished: CPU time: 0.015625 s, clock time: 0.02 s
+(2) Volume Smoothing started
+25% completed
+50% completed
+75% completed
+100% completed
+(2) Volume Smoothing finished: CPU time: 0.046875 s, clock time: 0.036 s
+(1) Volume Mesh Improver finished: CPU time: 0.0625 s, clock time: 0.057 s
+(0) Volume Meshing finished: CPU time: 0.359375 s, clock time: 0.408 s
+Volume meshing peak memory usage is 51.753 MBytes.
+Mesh Statistics
+Node count: 2238
+Element count: 5753
+Minimum element volume: 0.0262642
+Maximum element volume: 231.241
+Total model volume: 13749.1
+  Nodal Aspect Ratio Summary
+Surface 1: 11.4057
+Surface 2: 42.803
+Surface 3: 13.2922
+Surface 4: 65.8401
+Surface 5: 71.9857
+Surface 6: 65.8401
+Surface 7: 71.9857
+Surface 8: 22.4392
+Maximum nodal aspect ratio: 71.9857
+Meshing concluded.
+setUpwardAdjacencies = 0.01 sec
+interpolateExtrudedFaces = 0.00 sec
+interpolatePeriodicFaces = 0.00 sec
+addPeripheralFaces = 0.00 sec
+replicateMovingRegions = 0.00 sec
+splitFluidSolidInterfaces = 0.00 sec
+removeUnreferencedVertices = 0.00 sec
+Time to write model = 0.01 sec
+Time to write mesh = 0.01 sec
+Time to write GBI = 0.08 sec
+Time to free model entity memory = 0.00 sec
+Time to delete database = 0.00 sec
